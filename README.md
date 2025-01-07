@@ -12,6 +12,19 @@ This project demonstrates a fully functional Security Operations Center (SOC) au
 -	Perform real-time reputation checks with VirusTotal.
 -	Implement defensive actions, such as blocking malicious IP addresses.
 
+## Tools and Technologies
+•	Wazuh: Open-source security monitoring platform.
+•	Shuffle: SOAR (Security Orchestration, Automation, and Response) platform.
+•	The Hive: Open-source incident response platform.
+•	VirusTotal: Online malware analysis and reputation-checking service.
+
+## Key Features
+•	End-to-End Automation: The lab automates threat detection, analysis, and response workflows.
+•	VirusTotal Integration: Real-time reputation checks for hashes and IP addresses.
+•	Enhanced Case Management: Centralized incident tracking using The Hive.
+•	Custom Defensive Actions: Automated blocking of malicious IPs to enhance network defense.
+•	Cloud-based Deployment: Each component is deployed on separate cloud servers for scalability and security.
+
 
 ## Architecture
 
@@ -69,14 +82,33 @@ The lab architecture includes:
 
 *Ref 7: Virustotal results*
 
+![image](https://github.com/user-attachments/assets/7f5f7ac9-141b-4099-a67d-c072f58bf0b1)
+
+*Ref 8: Shuffle sending Alerts to The Hive and Email*
+
+3.	Incident Management in The Hive:
+-	The Hive received the alert as a new case with detailed information.
+-	The SOC team could review, escalate, or close the case after investigation.
+
+![image](https://github.com/user-attachments/assets/ec81a4df-8a99-4b1f-a550-4b0b926f46ee)
+
+*Ref 8: Alert sent to The Hive*
+
+![image](https://github.com/user-attachments/assets/d83922f1-f3b7-45f7-8b9b-03b455f80e6a)
+
+*Ref 8: Alert sent to Email*
+
+4.	Defensive Capabilities:
+-	Shuffle workflows included automatic blocking of malicious IP addresses identified in the alerts.
+
+## Conclusion
+This SOC Automation Lab demonstrates the power of integrating open-source tools to build an efficient, automated incident response workflow. By combining monitoring, automation, and case management, the lab enhances the SOC's capability to detect, analyze, and respond to threats quickly and effectively.
 
 
 
 
 
 
-Every screenshot should have some text explaining what the screenshot is about.
 
-Example below.
 
-*Ref 1: Network Diagram*
+
