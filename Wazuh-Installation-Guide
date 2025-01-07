@@ -4,7 +4,7 @@ HDD: 50GB+
 OS: Ubuntu 22.04 LTS
 
 Perform Updates and Upgrades
-sudo apt-get update && sudo apt-get upgrade
+sudo apt-get update && sudo apt-get upgrade -y
 
 Install Wazuh 4.7
 curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
