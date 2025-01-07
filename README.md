@@ -46,6 +46,31 @@ The lab architecture includes:
 
 *Ref 3b: Mimikatz alert detected on Wazuh*
 
+2.	Automation with Shuffle:
+-	Wazuh sent the alert to Shuffle.
+-	Shuffle extracted the SHA256 hash from the alert and queried VirusTotal for a reputation score.
+-	Shuffle triggered additional actions based on the alert severity:
+    o	Sending the alert to The Hive for case management.
+    o	Sending an email notification to the SOC analyst.
+ 	
+![image](https://github.com/user-attachments/assets/8f7708ed-0706-4bb3-911c-35740f361901)
+
+*Ref 4: Shuffle Workflow*
+
+![image](https://github.com/user-attachments/assets/21bc30ca-0ab9-4938-946c-1b86e721edcb)
+
+*Ref 5: Data ingested to shuffle from Wazuh*
+
+![image](https://github.com/user-attachments/assets/1bfa73eb-80ef-4d24-92d6-02422cd56037)
+
+*Ref 6: SHA Regex to extract Hash value*
+
+![image](https://github.com/user-attachments/assets/b305b7e7-d365-431c-94da-29aefedcc146)
+
+*Ref 7: Virustotal results*
+
+
+
 
 
 
