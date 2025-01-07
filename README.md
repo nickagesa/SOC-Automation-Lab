@@ -91,9 +91,11 @@ The lab architecture includes:
 -	The SOC team could review, escalate, or close the case after investigation.
 
 ![image](https://github.com/user-attachments/assets/ec81a4df-8a99-4b1f-a550-4b0b926f46ee)
+
 *Ref 9: Alert sent to The Hive*
 
 ![image](https://github.com/user-attachments/assets/d83922f1-f3b7-45f7-8b9b-03b455f80e6a)
+
 *Ref 10: Alert sent to Email*
 
 4.	Defensive Capabilities:
