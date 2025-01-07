@@ -83,6 +83,7 @@ The lab architecture includes:
 *Ref 7: Virustotal results*
 
 ![image](https://github.com/user-attachments/assets/7f5f7ac9-141b-4099-a67d-c072f58bf0b1)
+
 *Ref 8: Shuffle sending Alerts to The Hive and Email*
 
 3.	Incident Management in The Hive:
@@ -90,10 +91,10 @@ The lab architecture includes:
 -	The SOC team could review, escalate, or close the case after investigation.
 
 ![image](https://github.com/user-attachments/assets/ec81a4df-8a99-4b1f-a550-4b0b926f46ee)
-*Ref 8: Alert sent to The Hive*
+*Ref 9: Alert sent to The Hive*
 
 ![image](https://github.com/user-attachments/assets/d83922f1-f3b7-45f7-8b9b-03b455f80e6a)
-*Ref 8: Alert sent to Email*
+*Ref 10: Alert sent to Email*
 
 4.	Defensive Capabilities:
 -	Shuffle workflows included automatic blocking of malicious IP addresses identified in the alerts.
