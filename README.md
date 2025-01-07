@@ -21,6 +21,7 @@ The lab architecture includes:
 3.	The Hive: Set up for case management and detailed incident tracking.
 
 ![image](https://github.com/user-attachments/assets/2717896a-7eb8-45f5-99a1-4a8fe4e72da2)
+
 *Ref 1: Architecture Diagram*
 
 ## Steps
