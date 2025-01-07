@@ -24,8 +24,31 @@ The lab architecture includes:
 
 *Ref 1: Architecture Diagram*
 
-## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+### Setup Details
+-	Wazuh was deployed on a cloud server to monitor activity from endpoint devices.
+-	Shuffle was installed on a separate cloud server for orchestration and automation.
+-	The Hive was hosted on another cloud server for case management and collaboration.
+-	The monitored endpoint: Windows machine (DESKTOP-8AAR6BV (002)).
+
+## Workflow
+1.	Threat Generation and Detection:
+-	A Mimikatz alert was triggered on the Windows endpoint (DESKTOP-8AAR6BV (002)).
+-	Wazuh detected the alert and generated detailed logs, including a SHA256 hash of the suspected malware.
+![image](https://github.com/user-attachments/assets/06f8e34c-5492-4917-b23f-11663a3f04b6)
+
+*Ref 2: Mimikatz File executed on Windows client Machine*
+
+![image](https://github.com/user-attachments/assets/75b16c47-8d81-493b-9a84-44e82fc451a2)
+
+*Ref 3a: Mimikatz alert detected on Wazuh*
+
+![image](https://github.com/user-attachments/assets/c7ad6e4e-b4ed-4d92-85ec-dbfef825ffbe)
+
+*Ref 3b: Mimikatz alert detected on Wazuh*
+
+
+
+
 
 Every screenshot should have some text explaining what the screenshot is about.
 
