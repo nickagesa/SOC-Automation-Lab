@@ -13,18 +13,17 @@ This project demonstrates a fully functional Security Operations Center (SOC) au
 -	Implement defensive actions, such as blocking malicious IP addresses.
 
 ## Tools and Technologies
-•	Wazuh: Open-source security monitoring platform.
-•	Shuffle: SOAR (Security Orchestration, Automation, and Response) platform.
-•	The Hive: Open-source incident response platform.
-•	VirusTotal: Online malware analysis and reputation-checking service.
+-   Wazuh: Open-source security monitoring platform.
+-   Shuffle: SOAR (Security Orchestration, Automation, and Response) platform.
+-   The Hive: Open-source incident response platform.
+-   VirusTotal: Online malware analysis and reputation-checking service.
 
 ## Key Features
-•	End-to-End Automation: The lab automates threat detection, analysis, and response workflows.
-•	VirusTotal Integration: Real-time reputation checks for hashes and IP addresses.
-•	Enhanced Case Management: Centralized incident tracking using The Hive.
-•	Custom Defensive Actions: Automated blocking of malicious IPs to enhance network defense.
-•	Cloud-based Deployment: Each component is deployed on separate cloud servers for scalability and security.
-
+-   End-to-End Automation: The lab automates threat detection, analysis, and response workflows.
+-   VirusTotal Integration: Real-time reputation checks for hashes and IP addresses.
+-   Enhanced Case Management: Centralized incident tracking using The Hive.
+-   Custom Defensive Actions: Automated blocking of malicious IPs to enhance network defense.
+-   Cloud-based Deployment: Each component is deployed on separate cloud servers for scalability and security.
 
 ## Architecture
 
