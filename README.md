@@ -40,7 +40,7 @@ The lab architecture includes:
 -	Wazuh was deployed on a cloud server to monitor activity from endpoint devices.
 -	Shuffle was installed on a separate cloud server for orchestration and automation.
 -	The Hive was hosted on another cloud server for case management and collaboration.
--	The monitored endpoint: Windows machine (DESKTOP-8AAR6BV (002)).
+-	The monitored endpoint: Windows machine.
 
 ## Workflow
 1.	Threat Generation and Detection:
